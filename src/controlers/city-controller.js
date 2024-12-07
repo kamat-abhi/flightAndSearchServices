@@ -57,7 +57,7 @@
         return res.status(500).json({
             data: {},
             success: false,
-            message: 'not abble to create a city',
+            message: 'not abble to get a city',
             err: error
         });
     }
