@@ -7,7 +7,7 @@ class CrudRepository{
             const result = await this.model.create(data);
             return result;
         } catch (error) {
-            console.log("something went wrong in cred repo");
+            console.log("something went wrong in crud repo");
             throw error;
         }
     }
@@ -21,7 +21,7 @@ class CrudRepository{
             })
             return true;
         } catch (error) {
-            console.log("something went wrong in cred repo");
+            console.log("something went wrong in crud repo");
             throw error;
         }
     }
@@ -31,7 +31,7 @@ class CrudRepository{
             const result = await this.model.findByPk(modelId);
             return result;
         } catch (error) {
-            console.log("something went wrong in cred repo");
+            console.log("something went wrong in crud repo");
             throw error;
         }
     }
@@ -45,7 +45,7 @@ class CrudRepository{
             });
             return result;
         } catch (error) {
-            console.log("something went wrong in cred repo");
+            console.log("something went wrong in crud repo");
             throw error;
         }
     }
@@ -55,7 +55,7 @@ class CrudRepository{
             const result = await this.model.findAll();
             return result;
         } catch (error) {
-            console.log("something went wrong in cred repo");
+            console.log("something went wrong in crud repo");
             throw error;
         }
     }
